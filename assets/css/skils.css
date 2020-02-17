@@ -1,0 +1,317 @@
+.technology {
+  max-height: 8.5rem;
+  margin: auto;
+  display: block;
+  padding: 1rem;
+}
+
+.circle-wrap {
+  margin: 30px auto;
+  width: 150px;
+  height: 150px;
+  background: #e6e2e7;
+  border-radius: 50%;
+}
+
+
+
+.circle-wrap .inside-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+
+/* Angular */
+
+@keyframes fill-angular {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(153deg); /*85%*/
+  }
+}
+
+.circle-wrap .angular .mask,
+.circle-wrap .angular .fill-angular  {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .angular .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .angular .mask .fill-angular  {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #DD0C31;
+}
+
+.circle-wrap .angular .mask.full,
+.circle-wrap .angular .fill-angular  {
+  animation: fill-angular ease-in-out 3s;
+  transform: rotate(153deg); /*85%*/
+}
+
+/* end Angular */
+
+
+/* Ngrx */
+
+@keyframes fill-ngrx {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(126deg); /*70%*/
+  }
+}
+
+.circle-wrap .ngrx .mask,
+.circle-wrap .ngrx .fill-ngrx  {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .ngrx .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .ngrx .mask .fill-ngrx  {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #B62BCE;
+}
+
+.circle-wrap .ngrx .mask.full,
+.circle-wrap .ngrx .fill-ngrx  {
+  animation: fill-ngrx ease-in-out 3s;
+  transform: rotate(126deg); /*70%*/
+}
+
+/* end Ngrx */
+
+/* Firebase */
+
+@keyframes fill-firebase {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(108deg); /*60%*/
+  }
+}
+
+.circle-wrap .firebase .mask,
+.circle-wrap .firebase .fill-firebase  {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .firebase .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .firebase .mask .fill-firebase  {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #FFCC31;
+}
+
+.circle-wrap .firebase .mask.full,
+.circle-wrap .firebase .fill-firebase  {
+  animation: fill-firebase ease-in-out 3s;
+  transform: rotate(108deg); /*60%*/
+}
+
+/* end Firebase */
+
+/* Flutter */
+
+@keyframes fill-flutter {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(54deg); /*0%*/
+  }
+}
+
+.circle-wrap .flutter .mask,
+.circle-wrap .flutter .fill-flutter  {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .flutter .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .flutter .mask .fill-flutter  {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #5EC9F8;
+}
+
+.circle-wrap .flutter .mask.full,
+.circle-wrap .flutter .fill-flutter  {
+  animation: fill-flutter ease-in-out 3s;
+  transform: rotate(54deg); /*30%*/
+}
+
+/* end flutter */
+
+/* dialogflow */
+@keyframes fill-dialogflow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(117deg); /*65%*/
+  }
+}
+
+.circle-wrap .dialogflow .mask,
+.circle-wrap .dialogflow .fill-dialogflow  {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .dialogflow .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .dialogflow .mask .fill-dialogflow  {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #EF6C00;
+}
+
+.circle-wrap .dialogflow .mask.full,
+.circle-wrap .dialogflow .fill-dialogflow  {
+  animation: fill-dialogflow ease-in-out 3s;
+  transform: rotate(117deg); /*65%*/
+}
+/* end dialogflow */
+
+
+/* node */
+@keyframes fill-node {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(18deg); /*10%*/
+  }
+}
+
+.circle-wrap .node .mask,
+.circle-wrap .node .fill-node  {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .node .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .node .mask .fill-node  {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #43853D;
+}
+
+.circle-wrap .node .mask.full,
+.circle-wrap .node .fill-node  {
+  animation: fill-node ease-in-out 3s;
+  transform: rotate(18deg); /*10%*/
+}
+/* end node */
+
+
+/* TensorFlow */
+@keyframes fill-tensorflow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(2deg); /*0%*/
+  }
+}
+
+.circle-wrap .tensorflow .mask,
+.circle-wrap .tensorflow .fill-tensorflow  {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .tensorflow .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .tensorflow .mask .fill-tensorflow  {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #FF8601;
+}
+
+.circle-wrap .tensorflow .mask.full,
+.circle-wrap .tensorflow .fill-tensorflow  {
+  animation: fill-tensorflow ease-in-out 3s;
+  transform: rotate(2deg); /*0%*/
+}
+/* end TensorFlow */
+
+
+/* Ionic */
+@keyframes fill-ionic {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(162deg); /*90%*/
+  }
+}
+
+.circle-wrap .ionic .mask,
+.circle-wrap .ionic .fill-ionic {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .ionic .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .ionic .mask .fill-ionic {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #3880ff;
+}
+
+.circle-wrap .ionic .mask.full,
+.circle-wrap .ionic .fill-ionic {
+  animation: fill-ionic ease-in-out 3s;
+  transform: rotate(162deg); /*90%*/
+}
+/* end Ionic */
+
